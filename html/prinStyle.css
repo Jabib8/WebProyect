@@ -1,0 +1,35 @@
+#area{
+  background-color: orange;
+ width:1340px;
+    height:100px;
+border:2px solid black
+}
+.menu{
+  list-style:none;
+  padding:0px;
+  margin:0px;
+}
+.menu li{
+    margin:15px;
+    padding:15px;
+    float:left;
+      
+}
+
+.menu li a{
+  font: oblique bold 120% cursive;
+    display:block;
+    width:100px;
+    height:40px;
+    text-decoration:none;
+    text-align:center;
+    color:black;
+    background-color:#ff9d7e;
+    border-left:15px solid #ff4000;
+}
+
+.menu li a:hover{
+    color:#CF0;
+    background-color:#ff4000;
+    border-left-color:#ff9d7e;
+}
