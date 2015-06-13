@@ -15,9 +15,15 @@ border:2px solid black
     float:left;
       
 }
-
+h1{
+    position:absolute;
+   font:  cursive;
+   color: orange;
+   left: 40%;
+   top: 33%;
+}
 .menu li a{
-  font: oblique bold 120% cursive;
+  font: oblique bold 100% cursive;
     display:block;
     width:100px;
     height:40px;
@@ -44,7 +50,7 @@ border:2px solid black
   position:relative;
 width:1087px;
 height:200px;
-top:-12%;
+top:-21%;
 left:17%;
 margin-top:201px;
 margin-left:-100px;
