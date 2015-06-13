@@ -38,6 +38,34 @@ border:2px solid black
     font: oblique bold 120% cursive;
   position:absolute;
   top: 17px;
-    left: 1200        px;
-   
+    left: 1200px;
+}
+#areaCen{
+  position:relative;
+width:1087px;
+height:200px;
+top:-12%;
+left:17%;
+margin-top:201px;
+margin-left:-100px;
+}
+.me{
+  list-style:none;
+  padding:0px;
+  margin-bottom:0px;
+
+}
+.me li{
+    margin:15px;
+    padding:15px;
+    float:left;
+      
+}
+.me li a {
+         display:block;
+    text-decoration:none;
+padding:0px;
+ 
+   border: 200px;
+
 }
