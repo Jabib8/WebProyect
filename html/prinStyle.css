@@ -22,10 +22,37 @@ h1{
    left: 40%;
    top: 33%;
 }
+/*diseño pagina clientes*/
+#clien{
+ 
+  position:relative;
+  float: left; 
+   color: orange;
+ font-size: 55px;
+}
+#btnNewClient {
+  position:relative;
+  color: white;
+  font-size: 39px;
+   float: right; 
+    top: 46%;
+    right: -529%;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+background-color: orange;
+}
+#areabtnNew{
+  top: 191px;
+position: absolute;
+float: right;
+}
+/**/
 .menu li a{
   font: oblique bold 100% cursive;
     display:block;
-    width:100px;
+    width:200px;
     height:40px;
     text-decoration:none;
     text-align:center;
