@@ -6,122 +6,124 @@ css de la pagagina principal, client y invoices
 /*
 menu superior
 */
-#area{
-  background-color: orange;
- width:1340px;
-    height:100px;
-border:2px solid black
-}
-.menu{
-  list-style:none;
-  padding:0px;
-  margin:0px;
-}
-.menu li{
-    margin:15px;
-    padding:15px;
-    float:left;
-      
+#area {
+    background-color: orange;
+    width: 1340px;
+    height: 100px;
+    border: 2px solid black;
 }
 
-.menu li a{
-  font: oblique bold 100% cursive;
-    display:block;
-    width:200px;
-    height:40px;
-    text-decoration:none;
-    text-align:center;
-    color:black;
-    background-color:#ff9d7e;
-    border-left:15px solid #ff4000;
+.menu {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
-.menu li a:hover{
-    color:#CF0;
-    background-color:#ff4000;
-    border-left-color:#ff9d7e;
-}
+    .menu li {
+        margin: 15px;
+        padding: 15px;
+        float: left;
+    }
 
-   p{
+        .menu li a {
+            font: oblique bold 100% cursive;
+            display: block;
+            width: 200px;
+            height: 40px;
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            background-color: #ff9d7e;
+            border-left: 15px solid #ff4000;
+        }
+
+            .menu li a:hover {
+                color: #CF0;
+                background-color: #ff4000;
+                border-left-color: #ff9d7e;
+            }
+
+p {
     font: oblique bold 120% cursive;
-  position:absolute;
-  top: 17px;
+    position: absolute;
+    top: 17px;
     left: 1200px;
 }
-#areaCen{
-  position:relative;
-width:1087px;
-height:200px;
-top:-21%;
-left:17%;
-margin-top:201px;
-margin-left:-100px;
-}
-.me{
-  list-style:none;
-  padding:0px;
-  margin-bottom:0px;
 
+#areaCen {
+    position: relative;
+    width: 1087px;
+    height: 200px;
+    top: -21%;
+    left: 17%;
+    margin-top: 201px;
+    margin-left: -100px;
 }
-.me li{
-    margin:15px;
-    padding:15px;
-    float:left;
-      
-}
-.me li a {
-         display:block;
-    text-decoration:none;
-padding:0px;
- 
-   border: 200px;
 
+.me {
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 0px;
 }
+
+    .me li {
+        margin: 15px;
+        padding: 15px;
+        float: left;
+    }
+
+        .me li a {
+            display: block;
+            text-decoration: none;
+            padding: 0px;
+            border: 200px;
+        }
 /*
 menu superior
 */
-h1{
-    position:absolute;
-   font:  cursive;
-   color: orange;
-   left: 40%;
-   top: 33%;
+h1 {
+    position: absolute;
+    font: cursive;
+    color: orange;
+    left: 40%;
+    top: 33%;
 }
 /*diseño pagina clientes , invoices*/
-#clien{
- 
-  position:relative;
-  float: left; 
-   color: orange;
- font-size: 55px;
+#clien {
+    position: relative;
+    float: left;
+    color: orange;
+    font-size: 55px;
 }
+
 #btnNewClient {
-  position:relative;
-  color: white;
-  font-size: 39px;
-   float: right; 
+    position: relative;
+    color: white;
+    font-size: 39px;
+    float: right;
     top: 46%;
     right: -529%;
     border-radius: 10px 10px 10px 10px;
--moz-border-radius: 10px 10px 10px 10px;
--webkit-border-radius: 10px 10px 10px 10px;
-border: 0px solid #000000;
-background-color: orange;
-}
-#areabtnNew{
-  top: 191px;
-position: absolute;
-float: right;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    background-color: orange;
 }
 
-.table{
-   width:1350px;
-    height:250px;
-    text-align: center;
-  
+#areabtnNew {
+    top: 191px;
+    position: absolute;
+    float: right;
 }
-#cabezera{
-  background-color: green;
+
+.table {
+    width: 1350px;
+    height: 250px;
+    text-align: center;
+}
+
+#cabezera {
+    background-color: green;
 }
 
 /**/

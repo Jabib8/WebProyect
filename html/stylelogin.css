@@ -1,34 +1,33 @@
-h1{
-color: orange;
+h1 {
+    color: orange;
 }
 
-#login{
-	background-color: AntiqueWhite ;
-	width:320px;
-	height: 200px;
-	 border-radius: 10px 10px 10px 10px;
--moz-border-radius: 10px 10px 10px 10px;
--webkit-border-radius: 10px 10px 10px 10px;
-border: 0px solid #000000;
+#login {
+    background-color: AntiqueWhite;
+    width: 320px;
+    height: 200px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
 }
 
-#name,#pass{
-	border:1px solid orange;
-}
-legend{
-
-	background-color: orange;
-	height: 25px;
-	width: 25px
-	 text-align:center;
-	 border-radius: 10px 10px 10px 11px;
--moz-border-radius: 10px 10px 10px 11px;
--webkit-border-radius: 10px 10px 10px 11px;
-border: 0px solid #000000;
+#name, #pass {
+    border: 1px solid orange;
 }
 
-#btnEnter
-{
-color: orange;
-font-size: 15px;
+legend {
+    background-color: orange;
+    height: 28px;
+    width: 320px;
+    text-align: center;
+    border-radius: 10px 10px 10px 11px;
+    -moz-border-radius: 10px 10px 10px 11px;
+    -webkit-border-radius: 10px 10px 10px 11px;
+    border: 0px solid #000000;
+}
+
+#btnEnter {
+    color: orange;
+    font-size: 15px;
 }
