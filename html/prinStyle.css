@@ -1,3 +1,11 @@
+
+/*
+css de la pagagina principal, client y invoices
+*/
+
+/*
+menu superior
+*/
 #area{
   background-color: orange;
  width:1340px;
@@ -15,40 +23,7 @@ border:2px solid black
     float:left;
       
 }
-h1{
-    position:absolute;
-   font:  cursive;
-   color: orange;
-   left: 40%;
-   top: 33%;
-}
-/*diseño pagina clientes*/
-#clien{
- 
-  position:relative;
-  float: left; 
-   color: orange;
- font-size: 55px;
-}
-#btnNewClient {
-  position:relative;
-  color: white;
-  font-size: 39px;
-   float: right; 
-    top: 46%;
-    right: -529%;
-    border-radius: 10px 10px 10px 10px;
--moz-border-radius: 10px 10px 10px 10px;
--webkit-border-radius: 10px 10px 10px 10px;
-border: 0px solid #000000;
-background-color: orange;
-}
-#areabtnNew{
-  top: 191px;
-position: absolute;
-float: right;
-}
-/**/
+
 .menu li a{
   font: oblique bold 100% cursive;
     display:block;
@@ -102,3 +77,52 @@ padding:0px;
    border: 200px;
 
 }
+/*
+menu superior
+*/
+h1{
+    position:absolute;
+   font:  cursive;
+   color: orange;
+   left: 40%;
+   top: 33%;
+}
+/*diseño pagina clientes , invoices*/
+#clien{
+ 
+  position:relative;
+  float: left; 
+   color: orange;
+ font-size: 55px;
+}
+#btnNewClient {
+  position:relative;
+  color: white;
+  font-size: 39px;
+   float: right; 
+    top: 46%;
+    right: -529%;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+background-color: orange;
+}
+#areabtnNew{
+  top: 191px;
+position: absolute;
+float: right;
+}
+
+.table{
+   width:1350px;
+    height:250px;
+    text-align: center;
+  
+}
+#cabezera{
+  background-color: green;
+}
+
+/**/
+
