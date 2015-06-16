@@ -15,7 +15,11 @@ h1 {
 #name, #pass {
     border: 1px solid orange;
 }
-
+.hora{
+    text-align:center;
+    width:1335px;
+    padding:0.5em 0;
+}
 legend {
     background-color: orange;
     height: 28px;
