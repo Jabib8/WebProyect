@@ -6,6 +6,7 @@ css de la pagagina principal, client y invoices
 /*
 menu superior
 */
+
 #area {
     background-color: orange;
     width: 100%;
@@ -27,7 +28,6 @@ menu superior
 
         .menu li a {
             font: oblique bold 100% cursive;
-            display: block;
             width: 100%;
             height: 40px;
             text-decoration: none;
@@ -35,6 +35,7 @@ menu superior
             color: black;
             background-color: #ff9d7e;
             border-left: 15px solid #ff4000;
+            
         }
 
             .menu li a:hover {
@@ -73,7 +74,6 @@ p {
     }
 
         .me li a {
-            display: block;
             text-decoration: none;
             padding: 0px;
             border: 200px;
@@ -92,6 +92,15 @@ h1 {
 #clien {
     position: relative;
     float: left;
+    width: 100%;
+    color: orange;
+    font-size: 55px;
+}
+
+#divtext {
+    position: relative;
+    width: 22%;
+    float: left;
     color: orange;
     font-size: 55px;
 }
@@ -100,8 +109,10 @@ h1 {
     position: relative;
     color: white;
     font-size: 39px;
+    font-size-adjust: inherit;
     float: right;
     top: 46%;
+    width: 100%;
     right: -529%;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
@@ -110,11 +121,15 @@ h1 {
     background-color: orange;
 }
 
+#divInfo {
+    width: 80%;
+}
+
 #areabtnNew {
     top: 198px;
     position: absolute;
     float: right;
-    width:15%;
+    width: 15%;
 }
 
 .table {
@@ -128,4 +143,48 @@ h1 {
 }
 
 /**/
+/*
+    diseño newClient , newChamba y newInvoice
+*/
+#divForm {
+    width: 100%;
+}
 
+#newData {
+    font: cursive;
+    color: green;
+    top: 35%;
+    width: 47%;
+    position: absolute;
+    left: 27%;
+    font-size: 20px;
+}
+
+input {
+    border: 2px solid green;
+    font: cursive;
+    font-size: 13px;
+    color: orange;
+}
+
+#cancel {
+    color: red;
+    font-size: 25px;
+    float: left;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+#save {
+    color: white;
+    background-color: green;
+    font-size: 25px;
+    float: right;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+/**/
