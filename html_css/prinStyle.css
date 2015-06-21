@@ -1,11 +1,11 @@
 
 /*
-css de la pagagina principal, client y invoices
-*/
+    css de la pagagina principal, client y invoices
+    */
 
 /*
-menu superior
-*/
+    menu superior
+    */
 
 #area {
     background-color: orange;
@@ -35,7 +35,6 @@ menu superior
             color: black;
             background-color: #ff9d7e;
             border-left: 15px solid #ff4000;
-            
         }
 
             .menu li a:hover {
@@ -64,6 +63,7 @@ p {
 .me {
     list-style: none;
     padding: 0px;
+    width: 100%;
     margin-bottom: 0px;
 }
 
@@ -79,8 +79,8 @@ p {
             border: 200px;
         }
 /*
-menu superior
-*/
+    menu superior
+    */
 h1 {
     position: absolute;
     font: cursive;
@@ -145,7 +145,7 @@ h1 {
 /**/
 /*
     diseño newClient , newChamba y newInvoice
-*/
+    */
 #divForm {
     width: 100%;
 }
