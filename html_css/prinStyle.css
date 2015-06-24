@@ -52,6 +52,13 @@ p {
     left: 1200px;
 }
 
+#exit {
+    font: oblique bold 120% cursive;
+    position: relative;
+    top: 23%;
+    float:right;
+   right:1%;
+}
 #areaCen {
     position: relative;
     width: 100%;
