@@ -197,3 +197,42 @@ input {
     border: 0px solid #000000;
 }
 /**/
+#divQ {
+    width:60%;
+    position: absolute;
+    
+    left: 20%;
+    top: 40%;
+}
+h2{
+    font-size: 35px;
+    font: cursive;
+    color: black;
+}
+#espacio{
+    height:7%;
+}
+
+#cancelDel {
+    position:relative;
+    color: red;
+    font-size: 25px;
+    float: left;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    right:5%;
+}
+
+#saveDel {
+    position:relative;
+    right:5%;
+    color: white;
+    background-color: green;
+    font-size: 25px;
+    float: right;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
