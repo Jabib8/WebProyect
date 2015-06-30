@@ -1,4 +1,49 @@
 
+@color: #a8b317;
+/*
+    css del login
+*/
+#welcome {
+    color: @color;
+    font-size:60px;
+}
+
+#login {
+    background-color: AntiqueWhite;
+    width: 320px;
+    height: 200px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+#name, #pass {
+    border: 1px solid orange;
+}
+.hora{
+    text-align:center;
+    width:1335px;
+    padding:0.5em 0;
+}
+legend {
+    background-color: orange;
+    height: 28px;
+    width: 320px;
+    text-align: center;
+    border-radius: 10px 10px 10px 11px;
+    -moz-border-radius: 10px 10px 10px 11px;
+    -webkit-border-radius: 10px 10px 10px 11px;
+    border: 0px solid #000000;
+}
+
+#btnEnter {
+    color: orange;
+    font-size: 15px;
+    width:auto;
+}
+
+/* end */
 /*
     css de la pagagina principal, client y invoices
     */
@@ -117,7 +162,7 @@ h1 {
 #btnNewClient {
     position: relative;
     color: white;
-    font-size: 39px;
+    font-size: 30px;
     font-size-adjust: inherit;
     float: right;
     top: 46%;
@@ -169,7 +214,7 @@ h1 {
     font-size: 20px;
 }
 
-input {
+input,#des {
     border: 2px solid green;
     font: cursive;
     font-size: 13px;

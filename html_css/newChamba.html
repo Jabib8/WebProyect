@@ -28,16 +28,29 @@
         <form id="newData">
 
             <h2>Client</h2>
-            <input type="text" size="100" />
+             <input list="clients" size="100">
+            <datalist id="clients">
+                <option value="Jabib Leiton">
+                <option value="Antonio Sanchez">
+                <option value="Bruno">
+                <option value="Juan">
+                <option value="Luis">
+                <option value="Pablo">
+            </datalist>
             <h2>Description</h2>
-            <input type="text" size="100" />
+           <textarea id="des" rows="2" COLS="100"></textarea>
             <h2>Date</h2>
             <input type="date" size="100" />
             <h2>Notes</h2>
             <input type="text" size="100" /><br><br>
             <input id="cancel" type="button" value="Cancel" onclick=" window.location.href='chambas.html' ">
             <input id="save" type="button" value="Save" onclick=" window.location.href='saveChamba.html' ">
-        </form>
+        </form><br>
+    <br>
+
+        <br>
+    <br>
+
     </div>
 
 </body>
